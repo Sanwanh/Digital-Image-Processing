@@ -60,7 +60,7 @@ def Error_Diffusion(img):
     return Error_Diffusion_img.astype(np.uint8)
 
 if __name__ == '__main__':
-    image_path = 'images/F-16-image.png'
+    image_path = 'images/Baboon-image.png'
 
     output_dir = 'output_results'
     os.makedirs(output_dir, exist_ok=True)
