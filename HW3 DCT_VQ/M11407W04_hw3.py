@@ -92,7 +92,7 @@ def visualize_codebook_as_table(codebook, block_size=4):
     plt.savefig("codebook_table.png")
 
 if __name__ == '__main__':
-    img = cv2.imread(r"D:\github\Digital-Image-Processing\HW3 DCT_VQ\images\F-16-image.png", cv2.IMREAD_GRAYSCALE)
+    img = cv2.imread(r"D:\github\Digital-Image-Processing\HW3 DCT_VQ\images\Baboon-image.png", cv2.IMREAD_GRAYSCALE)
 
     dct_g, rec_g = Global_DCT(img)
     dct_l, rec_l = Local_DCT(img)
